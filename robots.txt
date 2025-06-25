@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://vanessacunha.github.io/site-xpto/sitemap.xml
