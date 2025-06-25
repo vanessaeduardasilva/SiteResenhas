@@ -1,0 +1,204 @@
+#fundo {
+
+    background-image: url('images/imagem_livro_flor.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* altura tipo capa do LinkedIn */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+}
+.sobre-mim {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+    color: #333;
+    background-color: #dbbf7f;
+}
+
+.sobre-mim h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #3e3e3e;
+    border-left: 4px solid #c39b77;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sobre-mim h2 i {
+    color: #df8aa2;
+}
+
+.texto-sobre {
+    column-count: 2;
+    column-gap: 40px;
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+.texto-sobre p {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .texto-sobre {
+        column-count: 1;
+    }
+}
+
+
+
+.img {
+
+    width: 100px;
+    height: 50px;
+    margin-right: 100px;
+    margin-left: auto;
+}
+
+body {
+    background: linear-gradient(to bottom right, #dbbf7f, #dbbf7f);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }  
+  
+  .botoes-resenhas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin: 40px 0;
+}
+
+.botoes-resenhas a {
+    text-decoration: none;
+    background-color: #d48ca0cf;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+.botoes-resenhas a:hover {
+    background-color: #d48ca0;
+    transform: scale(1.05);
+}
+
+#meio {
+
+    background-image: url('images/biblioteca_img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+}
+
+#conteudo {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte e fundo geral do site */
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container da resenha */
+.resenha {
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Título do livro */
+.titulo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Nome do autor */
+.autor {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Sinopse, opinião e outras seções */
+.sinopse,
+.opiniao {
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* Destaque para os títulos internos */
+.sinopse strong,
+.opiniao strong,
+.autor strong {
+    color: #1a1a1a;
+}
+
+/* Consideração final com café */
+.cafezinho {
+    font-style: italic;
+    font-size: 15px;
+    color: #7f8c8d;
+    padding: 15px;
+    border-left: 4px solid #d6ccc2;
+    background-color: #f7f7f7;
+    border-radius: 6px;
+}
+
+.cafezinho:before {
+    content: "☕ ";
+}
+
+.resenha-conteudo {
+    display: flex;;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.resenha-texto {
+    flex: 1 1 60%;
+}
+
